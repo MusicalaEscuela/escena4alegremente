@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "title": "AlegreMente 2025 · Escena 4",
+    "subtitle": "Ciudad Rima / Happy Blues",
+    "footer": "AlegreMente 2025 · Escena 4 · Guía práctica",
+    "images": {
+      "hero": "Escena 4.jpg",
+      "heroAlt": "Escena 4 – Ciudad Rima / Happy Blues"
+    }
+  },
+  "audio": {
+    "label": "🎶 Audio: “Happy Blues”",
+    "sources": ["Happy Blues.mp3", "Happy Blues - Orquesta.mp3"]
+  },
+  "filters": {
+    "areas":   ["teatro", "musica", "danza", "plastica", "luces", "sonido", "produccion"],
+    "centros": ["arroyo", "betania", "colegio", "jerusalen", "lucero", "padre", "santo"],
+    "log":     ["vestuario", "sonido", "proyeccion", "materiales", "luces", "utileria"]
+  },
+  "resumen": {
+    "text": "Sofía entra a una ciudad de versos, graffitis y faroles bajos. Descubre que <em>sentir</em> no es debilidad: la tristeza también tiene música. En <b>Happy Blues</b>, cada historia se vuelve coro; se habla, se canta y se baila con dignidad.",
+    "duration": "10 min",
+    "tags": ["Teatro · Danza · Artes Plásticas", "Música: Orquesta (Happy Blues)"]
+  },
+  "proposito": [
+    "<strong>Nombrar</strong> emociones difíciles (tristeza, melancolía) sin estigma.",
+    "<strong>Transformar</strong> experiencias en palabra, ritmo y movimiento.",
+    "<strong>Fortalecer</strong> la escucha y la empatía en comunidad."
+  ],
+  "pasos": [
+    "Ciudad con letreros, graffitis y lámparas bajas; jóvenes caminan en silencio con audífonos.",
+    "Voz en off: <em>“Aquí cada paso es un verso, cada herida es canción.”</em>",
+    "Invitan a Sofía a escribir su historia; comienzan ritmos suaves golpeando lápices.",
+    "Entra <b>Happy Blues</b>; alternan versos hablados y coros cantados.",
+    "Final: todos caminan al frente con determinación; Sofía deja su hoja en el centro."
+  ],
+  "plastica": {
+    "items": [
+      "<strong>Fondo</strong>: ciudad tipográfica con rótulos, neón y graffitis (proyección <code>Fondo 4.jpg</code>).",
+      "<strong>Libreta gigante</strong> “rota” que se repara mientras se escribe (telón dividido con costuras visibles).",
+      "<strong>Poemas en telas</strong> colgando con palabras clave: “Valgo”, “Lloro”, “Escribo”, “Estoy”.",
+      "<strong>Luces bajas</strong> tipo lámparas cálidas creando rincones de lectura/escucha."
+    ],
+    "assets": [
+      { "src": "Fondo 4.jpg" }
+    ]
+  },
+  "luces": [
+    { "Cue": "<b>L1 – Ciudad</b>",   "Estado": "Azules fríos + lámparas cálidas bajas", "Detalle": "Ambiente urbano con neón tenue." },
+    { "Cue": "<b>L2 – Verso</b>",    "Estado": "Recorte cálido",                       "Detalle": "Foco sobre quien recita/escribe." },
+    { "Cue": "<b>L3 – Happy Blues</b>", "Estado": "Azul + ámbar swing",                "Detalle": "Entradas y coros; sensación de club." },
+    { "Cue": "<b>L4 – Caminata</b>", "Estado": "General suave",                        "Detalle": "Todos avanzan hacia proscenio." },
+    { "Cue": "<b>L5 – Cierre</b>",   "Estado": "Fade cálido",                          "Detalle": "Hoja de Sofía al centro; blackout suave." }
+  ],
+  "sonido": [
+    "<b>Tempo:</b> medio con sensación <em>swing</em> para verso hablado sobre compás.",
+    "<b>Espacios:</b> dejar <b>2–4 compases</b> entre versos para respiración/gesto.",
+    "<b>Corte final:</b> en unísono con caminata frontal y <em>freeze</em> en la hoja.",
+    "<b>Refuerzo:</b> microfonía/monitores según espacio (ver rider general).",
+    "<b>Coordinación A/V:</b> transiciones con proyección de ciudad (neón/graffiti)."
+  ],
+  "vestuario": {
+    "images": [
+      { "title": "Hip-hop urbano – conjunto 1", "src": "vestuario-urbano1.jpg", "file": "vestuario-urbano1.jpg" },
+      { "title": "Hip-hop urbano – conjunto 2", "src": "vestuario-urbano2.jpg", "file": "vestuario-urbano2.jpg" },
+      { "title": "Accesorios (gorras/cadenas)", "src": "accesorios-hiphop.jpg", "file": "accesorios-hiphop.jpg" },
+      { "title": "Zapatillas blancas",         "src": "zapatillas-blancas.jpg", "file": "zapatillas-blancas.jpg" },
+      { "title": "Chaquetas oversize",         "src": "chaquetas-oversize.jpg", "file": "chaquetas-oversize.jpg" }
+    ]
+  },
+  "escenario": {
+    "images": [
+      { "title": "Arte escena 4", "src": "Escena 4.jpg", "alt": "Arte de Escena 4" },
+      { "title": "Fondo 4",      "src": "Fondo 4.jpg",  "alt": "Ciudad tipográfica con neón y graffitis" }
+    ]
+  },
+  "checklist": [
+    "[ ] Proyección de ciudad (graffiti + neón) operativa.",
+    "[ ] Libreta gigante lista (mecanismo de “reparación”).",
+    "[ ] Telas-poema con palabras clave colgadas.",
+    "[ ] Entradas y cortes de <b>Happy Blues</b> claros (señales).",
+    "[ ] Cues de luces L1–L5 programados y probados.",
+    "[ ] Versos de estudiantes ensayados (volumen y dicción).",
+    "[ ] Hoja final de Sofía (utilería) preparada."
+  ],
+  "pdfs": {
+    "guion": "Guión Escena IV.pdf",
+    "partitura": "Happy Blues Partitura.jpg"
+  },
+  "centros": {
+    "items": [
+      "<b>Teatro:</b> Arroyo",
+      "<b>Danza:</b> Jerusalén",
+      "<b>Artes plásticas:</b> Lucero"
+    ],
+    "docentesText": "Docentes responsables: Eryck Martínez, Santiago Gutiérrez y Erika López "
+  },
+  "materiales": [
+    "Vestuario <em>hip-hop</em> (ropa ancha, tonos urbanos). <span class='pill'>vestuario</span>",
+    "Papel kraft para graffitis, sprays de color y marcadores gruesos. <span class='pill'>materiales</span>",
+    "Telas con poemas (retazos de algodón o popelina). <span class='pill'>materiales</span>",
+    "Lámparas bajas (cálidas) o simuladores con recortes. <span class='pill'>luces</span>",
+    "Proyección: <code>Fondo 4.jpg</code> y variantes urbanas. <span class='pill'>proyeccion</span>",
+    "Hoja/Libreta gigante y lápices gigantes. <span class='pill'>utileria</span>"
+  ],
+  "recursos": [
+    { "title": "Guión Escena IV (PDF)", "href": "Guión Escena IV.pdf", "areas": ["teatro", "produccion"], "icon": "📄" },
+    { "title": "Carpeta de Partituras – Happy Blues", "href": "[PON_AQUÍ_EL_ENLACE_DE_LA_CARPETA_DE_PARTITURAS]", "areas": ["musica"], "icon": "🎼" },
+    { "title": "Pista – Happy Blues (MP3)", "href": "Happy Blues.mp3", "areas": ["musica"], "icon": "🎵" }
+  ],
+  "docentes": {
+    "hint": "Sugerencia: cada docente puede tener su mini guía con materiales y tareas.",
+    "items": [
+      { "name": "Eryck Martínez",   "url": "docentes/brenda.html",   "areas": ["teatro"] },
+      { "name": "Erika López",   "url": "docentes/yusting.html",  "areas": ["danza"] },
+      { "name": "Santiago Gutiérrez","url": "docentes/santiago.html", "areas": ["plastica"] }
+    ]
+  },
+  "glosario": [
+    { "term": "swing",        "def": "sensación rítmica del jazz/blues; acentos y ‘vaivén’ característico." },
+    { "term": "spoken word",  "def": "poesía/relato hablado performático sobre música." },
+    { "term": "recorte",      "def": "luz puntual que aísla a una persona u objeto en escena." }
+  ]
+}
