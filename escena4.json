@@ -61,17 +61,29 @@
   ],
   "vestuario": {
     "images": [
-      { "title": "Hip-hop urbano – conjunto 1", "src": "vestuario-urbano1.jpg", "file": "vestuario-urbano1.jpg" },
-      { "title": "Hip-hop urbano – conjunto 2", "src": "vestuario-urbano2.jpg", "file": "vestuario-urbano2.jpg" },
-      { "title": "Accesorios (gorras/cadenas)", "src": "accesorios-hiphop.jpg", "file": "accesorios-hiphop.jpg" },
-      { "title": "Zapatillas blancas",         "src": "zapatillas-blancas.jpg", "file": "zapatillas-blancas.jpg" },
-      { "title": "Chaquetas oversize",         "src": "chaquetas-oversize.jpg", "file": "chaquetas-oversize.jpg" }
+      { "title": "Hip-hop urbano – conjunto 1", "src": "vestuario4.jpg", "file": "vestuario4.jpg" }
     ]
   },
   "escenario": {
     "images": [
       { "title": "Arte escena 4", "src": "Escena 4.jpg", "alt": "Arte de Escena 4" },
-      { "title": "Fondo 4",      "src": "Fondo 4.jpg",  "alt": "Ciudad tipográfica con neón y graffitis" }
+      { "title": "Escenario 4", "src": "escenario4.png", "alt": "Arte de Escena 4" },
+      { "title": "Fondo 4",      "src": "fondo4.jpeg",  "alt": "Ciudad tipográfica con neón y graffitis" },
+      { "title": "Graffiti 1",      "src": "graffiti1.jpg",  "alt": "Graffiti 1" },
+      { "title": "Graffiti 2",      "src": "graffiti2.jpg",  "alt": "Graffiti 2" },
+      { "title": "Graffiti 3",      "src": "graffiti3.jpg",  "alt": "Graffiti 3" },
+      { "title": "Graffiti 4",      "src": "graffiti4.jpg",  "alt": "Graffiti 4" },
+      { "title": "Graffiti 5",      "src": "graffiti5.jpg",  "alt": "Graffiti 5," },
+      { "title": "Graffiti 6",      "src": "graffiti6.jpg",  "alt": "Graffiti 6" },
+      { "title": "Graffiti 7",      "src": "graffiti7.jpg",  "alt": "Graffiti 7" },
+      { "title": "Graffiti 8",      "src": "graffiti8.jpg",  "alt": "Graffiti 8" },
+      { "title": "Graffiti 9",      "src": "graffiti9.jpg",  "alt": "Graffiti 9" },
+      { "title": "Graffiti 10",      "src": "graffiti10.jpg",  "alt": "Graffiti 10" },
+      { "title": "Graffiti 11",      "src": "graffiti11.jpg",  "alt": "Graffiti 11" },
+      { "title": "Graffiti 12",      "src": "graffiti12.jpg",  "alt": "Graffiti 12" },
+      { "title": "Graffiti 13",      "src": "graffiti13.jpg",  "alt": "Graffiti 13" },
+      { "title": "Graffiti 14",      "src": "graffiti14.jpg",  "alt": "Graffiti 14" },
+      { "title": "Graffiti 15",      "src": "graffiti15.jpg",  "alt": "Graffiti 15" }
     ]
   },
   "checklist": [
