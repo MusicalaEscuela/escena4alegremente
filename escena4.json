@@ -132,5 +132,14 @@
     { "term": "swing",        "def": "sensación rítmica del jazz/blues; acentos y ‘vaivén’ característico." },
     { "term": "spoken word",  "def": "poesía/relato hablado performático sobre música." },
     { "term": "recorte",      "def": "luz puntual que aísla a una persona u objeto en escena." }
+  ],
+  "pistas": [
+    {
+      "title": "Danza · Escena 4 — Usher Yeah!",
+      "href": "DANZA ESCENA 4 Usher - Yeah!.mp3",
+      "areas": ["danza"],
+      "icon": "🎧"
+    }
   ]
 }
+
