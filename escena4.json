@@ -14,7 +14,7 @@
   },
   "filters": {
     "areas":   ["teatro", "musica", "danza", "plastica", "luces", "sonido", "produccion"],
-    "centros": ["arroyo", "betania", "colegio", "jerusalen", "lucero", "padre", "santo"],
+    "centros": ["jerusalen", "lucero"],
     "log":     ["vestuario", "sonido", "proyeccion", "materiales", "luces", "utileria"]
   },
   "resumen": {
@@ -101,7 +101,7 @@
   },
   "centros": {
     "items": [
-      "<b>Teatro:</b> Arroyo",
+      "<b>Teatro:</b> Jerusalén",
       "<b>Danza:</b> Jerusalén",
       "<b>Artes plásticas:</b> Lucero"
     ],
@@ -142,4 +142,5 @@
     }
   ]
 }
+
 
