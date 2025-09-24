@@ -140,7 +140,12 @@
       "areas": ["danza"],
       "icon": "🎧"
     }
-  ]
+  ],
+  "videos": [
+    {
+      "title": "Ensayo Teatro Jerusalén",
+      "href": "https://youtu.be/CoqDlOoZHmA",
+      "areas": ["teatro"],
+      "icon": "▶️"
+    }
 }
-
-
