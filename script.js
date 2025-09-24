@@ -17,7 +17,7 @@ async function loadConfig() {
   };
 
   const url = new URL(location.href);
-  const id  = url.searchParams.get('scene') || 'escena4';
+  const id  = url.searchParams.get('scene') || 'escena2';
 
   // Compat: si ya hay datos globales (por versiones anteriores)
   if (window.__SCENE__ || window.CONFIG_ESCENA) {
@@ -441,6 +441,33 @@ function asidePistas(items) {
   $('#col-aside').appendChild(el);
 }
 
+/* NEW: Videos de referencia (YouTube) */
+function asideVideos(items) {
+  const { el, content } = makeCard({ title: '▶️ Videos de referencia (YouTube)' });
+  const ul = document.createElement('ul');
+  ul.style.listStyle = 'none';
+  ul.style.paddingLeft = '0';
+
+  (items || []).forEach(v => {
+    const li = document.createElement('li');
+    li.style.display = 'flex';
+    li.style.justifyContent = 'space-between';
+    li.style.alignItems = 'center';
+    li.style.borderBottom = '1px solid #eee';
+    li.style.padding = '6px 0';
+    li.innerHTML = `
+      <a href="${encodeURI(v.href)}" target="_blank" rel="noreferrer">
+        ${v.icon || '▶️'} ${v.title}
+      </a>
+      ${v.areas ? `<span class="teacher-tags">${(v.areas || []).join(', ')}</span>` : ''}
+    `;
+    ul.appendChild(li);
+  });
+
+  content.appendChild(ul);
+  $('#col-aside').appendChild(el);
+}
+
 /* ====================== Init ====================== */
 (async function init() {
   try {
@@ -475,7 +502,8 @@ function asidePistas(items) {
     if (cfg.recursos)   asideRecursos(cfg.recursos);
     if (cfg.docentes)   asideDocentes(cfg.docentes);
     if (cfg.glosario)   asideGlosario(cfg.glosario);
-    if (cfg.pistas)     asidePistas(cfg.pistas); // 👈 NUEVO: debajo del glosario
+    if (cfg.pistas)     asidePistas(cfg.pistas);
+    if (cfg.videos)     asideVideos(cfg.videos); 
 
     // Aplicar filtros (inicial)
     applyFilters();
@@ -483,4 +511,3 @@ function asidePistas(items) {
     console.error(e);
   }
 })();
-
