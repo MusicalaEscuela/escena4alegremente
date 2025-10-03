@@ -14,7 +14,7 @@
   },
   "filters": {
     "areas":   ["teatro", "musica", "danza", "plastica", "luces", "sonido", "produccion"],
-    "centros": ["jerusalen", "lucero"],
+    "centros": ["arroyo", "betania", "colegio", "jerusalen", "lucero", "padre", "santo"],
     "log":     ["vestuario", "sonido", "proyeccion", "materiales", "luces", "utileria"]
   },
   "resumen": {
@@ -101,7 +101,7 @@
   },
   "centros": {
     "items": [
-      "<b>Teatro:</b> Jerusalén",
+      "<b>Teatro:</b> Arroyo",
       "<b>Danza:</b> Jerusalén",
       "<b>Artes plásticas:</b> Lucero"
     ],
@@ -132,23 +132,5 @@
     { "term": "swing",        "def": "sensación rítmica del jazz/blues; acentos y ‘vaivén’ característico." },
     { "term": "spoken word",  "def": "poesía/relato hablado performático sobre música." },
     { "term": "recorte",      "def": "luz puntual que aísla a una persona u objeto en escena." }
-  ],
-  "pistas": [
-    {
-      "title": "Danza · Escena 4 — Usher Yeah!",
-      "href": "DANZA ESCENA 4 Usher - Yeah!.mp3",
-      "areas": ["danza"],
-      "icon": "🎧"
-    }
-  ],
-  "videos": [
-    {
-      "title": "Ensayo Teatro Jerusalén",
-      "href": "https://youtu.be/iJNJjXNkt7M",
-      "areas": ["teatro"],
-      "icon": "▶️"
-    }
   ]
 }
-
-
